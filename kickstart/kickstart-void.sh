@@ -11,10 +11,10 @@
 set -e
 
 dotfiles_path="$HOME/workspace/dotfiles"
-dotfiles_repo_url="https://github.com/danguita/dotfiles.git"
-st_repo_url="https://github.com/danguita/st.git"
-dwm_repo_url="https://github.com/danguita/dwm.git"
-slstatus_repo_url="https://github.com/danguita/slstatus.git"
+dotfiles_repo_url="https://github.com/guillevg/dotfiles.git"
+st_repo_url="https://github.com/guillevg/st.git"
+dwm_repo_url="https://github.com/guillevg/dwm.git"
+slstatus_repo_url="https://github.com/guillevg/slstatus.git"
 
 say() {
   printf "\n[$(date --iso-8601=seconds)] %b\n" "$1"
@@ -150,6 +150,7 @@ main() {
     pulseaudio pulsemixer pamixer pavucontrol \
     playerctl \
     ranger \
+    fff \
     w3m w3m-img \
     linux5.9 linux5.9-headers \
     linux-firmware linux-firmware-network wifi-firmware \
@@ -159,6 +160,8 @@ main() {
     vim neovim python3-neovim \
     ctags \
     tmux \
+    kitty \
+    python3 \
     tig \
     scrot \
     feh \

@@ -37,7 +37,7 @@ set -e
 device=/dev/sda # It typically is `/dev/nvme0n1` in NVMe drives.
 
 # See https://docs.voidlinux.org/installation/live-images/partitions.html#swap-partitions.
-swap_partition_size=2G
+swap_partition_size=4G
 
 # Kernel version the system will boot on.
 # https://github.com/void-linux/void-packages/blob/597174314788beeb318eaf97b9fea6ae19bcff97/srcpkgs/linux/template#L3
@@ -53,7 +53,7 @@ lang=en_US.UTF-8
 hostname=void
 
 # Initial user. Will be created automatically with `sudo` privileges.
-user=david
+user=guille
 
 # XBPS repo to download the base packages from. Default should be good.
 xbps_repo_url=https://alpha.de.repo.voidlinux.org/current
